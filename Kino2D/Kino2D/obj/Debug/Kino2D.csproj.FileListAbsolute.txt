@@ -1,0 +1,10 @@
+G:\Dokumenty\Kino2D\Kino2D\bin\Debug\Kino2D.exe.config
+G:\Dokumenty\Kino2D\Kino2D\bin\Debug\Kino2D.exe
+G:\Dokumenty\Kino2D\Kino2D\bin\Debug\Kino2D.pdb
+G:\Dokumenty\Kino2D\Kino2D\obj\Debug\Kino2D.csprojAssemblyReference.cache
+G:\Dokumenty\Kino2D\Kino2D\obj\Debug\Kino2D.Properties.Resources.resources
+G:\Dokumenty\Kino2D\Kino2D\obj\Debug\Kino2D.csproj.GenerateResource.cache
+G:\Dokumenty\Kino2D\Kino2D\obj\Debug\Kino2D.csproj.CoreCompileInputs.cache
+G:\Dokumenty\Kino2D\Kino2D\obj\Debug\Kino2D.exe
+G:\Dokumenty\Kino2D\Kino2D\obj\Debug\Kino2D.pdb
+G:\Dokumenty\Kino2D\Kino2D\obj\Debug\Kino2D.Form1.resources
