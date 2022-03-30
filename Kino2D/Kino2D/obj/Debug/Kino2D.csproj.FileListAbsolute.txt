@@ -40,3 +40,13 @@ D:\Koj\Programování\GitHub\C#\Kino\Kino2D\Kino2D\obj\Debug\Kino2D.csproj.Gener
 D:\Koj\Programování\GitHub\C#\Kino\Kino2D\Kino2D\obj\Debug\Kino2D.csproj.CoreCompileInputs.cache
 D:\Koj\Programování\GitHub\C#\Kino\Kino2D\Kino2D\obj\Debug\Kino2D.exe
 D:\Koj\Programování\GitHub\C#\Kino\Kino2D\Kino2D\obj\Debug\Kino2D.pdb
+D:\Koj\Programování\GitHub\C#\Cinema-masters\Kino2D\Kino2D\bin\Debug\Kino2D.exe.config
+D:\Koj\Programování\GitHub\C#\Cinema-masters\Kino2D\Kino2D\bin\Debug\Kino2D.exe
+D:\Koj\Programování\GitHub\C#\Cinema-masters\Kino2D\Kino2D\bin\Debug\Kino2D.pdb
+D:\Koj\Programování\GitHub\C#\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.csprojAssemblyReference.cache
+D:\Koj\Programování\GitHub\C#\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.Form1.resources
+D:\Koj\Programování\GitHub\C#\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.Properties.Resources.resources
+D:\Koj\Programování\GitHub\C#\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.csproj.GenerateResource.cache
+D:\Koj\Programování\GitHub\C#\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.csproj.CoreCompileInputs.cache
+D:\Koj\Programování\GitHub\C#\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.exe
+D:\Koj\Programování\GitHub\C#\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.pdb

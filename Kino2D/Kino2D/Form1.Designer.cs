@@ -52,7 +52,7 @@
             // 
             this.numericUpDown1.Location = new System.Drawing.Point(77, 14);
             this.numericUpDown1.Minimum = new decimal(new int[] {
-            1,
+            2,
             0,
             0,
             0});
@@ -69,7 +69,7 @@
             // 
             this.numericUpDown2.Location = new System.Drawing.Point(122, 14);
             this.numericUpDown2.Minimum = new decimal(new int[] {
-            1,
+            3,
             0,
             0,
             0});

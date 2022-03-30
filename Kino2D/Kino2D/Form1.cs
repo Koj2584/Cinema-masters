@@ -24,7 +24,7 @@ namespace Kino2D
             int x = (int)numericUpDown2.Value;
             int y = (int)numericUpDown1.Value;
             sal = new bool[y, x];
-                        ToolTip t = new ToolTip();
+            ToolTip t = new ToolTip();
             for (int f = 0; f<y; f++)
             {
                 for (int i = 0; i < x; i++)
@@ -32,17 +32,19 @@ namespace Kino2D
                     Button b = new Button();
                     b.Width = 30;
                     b.Height = b.Width;
-                    b.Image = Properties.Resources.sedadlo;
-                    if (f ==y-2 && i==x-2 )
+                    b.BackColor = panel1.BackColor;
+                    b.BackgroundImage = Properties.Resources.sedadlo;
+                    b.BackgroundImageLayout = ImageLayout.Zoom;
+                    b.FlatStyle = FlatStyle.Flat;
+                    b.ForeColor = Color.White;
+                    if ((x%2==0&&x%3==0&&i%4==0&&(f==0||f==y-1))||(x % 2 != 0 && i % 3 == 0&& (f == 0 || f == y - 1)))
                     {
                         b.Location = new Point((b.Width +5) * i, (b.Height + 5) * f);
                         b.Width = b.Width*2+5;
                         t.SetToolTip(b, ((char)((int)'A' + f)).ToString() + i);
-                        //b.Text = ((char)((int)'A' + f)).ToString() + i;
                         b.Click += button_Click;
-                        b.BackColor = Color.Gray;
-                        b.ForeColor = Color.White;
-                        b.Image = Properties.Resources.dvojsedadlo;
+                        b.BackgroundImage = Properties.Resources.dvojsedadlo;
+                        b.BackgroundImageLayout = ImageLayout.Zoom;
                         panel1.Controls.Add(b);
                         i++;
                     }
@@ -50,10 +52,7 @@ namespace Kino2D
                     {
                         b.Location = new Point((b.Width + 5) * i, (b.Height + 5) * f);
                         t.SetToolTip(b, ((char)((int)'A' + f)).ToString() + i);
-                        //b.Text = ((char)((int)'A' + f)).ToString() + i;
                         b.Click += button_Click;
-                        b.BackColor = Color.Gray;
-                        b.ForeColor = Color.White;
                         panel1.Controls.Add(b);
                     }
                     
@@ -65,7 +64,8 @@ namespace Kino2D
         {
             (sender as Button).Enabled = false;
             (sender as Button).BackColor = Color.Red;
-            (sender as Button).Image = Properties.Resources.avatar;
+            (sender as Button).BackgroundImage = Properties.Resources.avatar;
+            (sender as Button).BackgroundImageLayout = ImageLayout.Stretch;
         }
     }
 }
