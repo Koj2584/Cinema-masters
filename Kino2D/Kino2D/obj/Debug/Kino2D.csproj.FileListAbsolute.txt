@@ -19,3 +19,14 @@ C:\Users\i5\Source\Repos\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.csproj.Ge
 C:\Users\i5\Source\Repos\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.csproj.CoreCompileInputs.cache
 C:\Users\i5\Source\Repos\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.exe
 C:\Users\i5\Source\Repos\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.pdb
+C:\Users\i5\source\repos\kino\Kino2D\Kino2D\bin\Debug\Kino2D.exe.config
+C:\Users\i5\source\repos\kino\Kino2D\Kino2D\bin\Debug\Kino2D.exe
+C:\Users\i5\source\repos\kino\Kino2D\Kino2D\bin\Debug\Kino2D.pdb
+C:\Users\i5\source\repos\kino\Kino2D\Kino2D\obj\Debug\Kino2D.csproj.AssemblyReference.cache
+C:\Users\i5\source\repos\kino\Kino2D\Kino2D\obj\Debug\Kino2D.csproj.SuggestedBindingRedirects.cache
+C:\Users\i5\source\repos\kino\Kino2D\Kino2D\obj\Debug\Kino2D.Form1.resources
+C:\Users\i5\source\repos\kino\Kino2D\Kino2D\obj\Debug\Kino2D.Properties.Resources.resources
+C:\Users\i5\source\repos\kino\Kino2D\Kino2D\obj\Debug\Kino2D.csproj.GenerateResource.cache
+C:\Users\i5\source\repos\kino\Kino2D\Kino2D\obj\Debug\Kino2D.csproj.CoreCompileInputs.cache
+C:\Users\i5\source\repos\kino\Kino2D\Kino2D\obj\Debug\Kino2D.exe
+C:\Users\i5\source\repos\kino\Kino2D\Kino2D\obj\Debug\Kino2D.pdb

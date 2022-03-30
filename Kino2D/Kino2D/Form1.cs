@@ -31,13 +31,26 @@ namespace Kino2D
                   Button b = new Button();
                   b.Width = 30;
                   b.Height = b.Width;
-                  b.Location = new Point((b.Width + 5) * i, (b.Height + 5) * f);
-                  b.Text = ((char)((int)'A' + f)).ToString() + i;
-                  b.Click += button_Click;
-                 b.BackColor = Color.Gray;
-                  b.ForeColor = Color.White;
-                  panel1.Controls.Add(b);
-                    b.Image = Properties.Resources.avatar;
+                    if (f ==y-2 && i==x-2 )
+                    {
+                        b.Location = new Point((b.Width +10) * i, (b.Height + 5) * f);
+                        b.Width = 50;
+                        b.Text = ((char)((int)'A' + f)).ToString() + i;
+                        b.Click += button_Click;
+                        b.BackColor = Color.Gray;
+                        b.ForeColor = Color.White;
+                        panel1.Controls.Add(b);
+                        i++;
+                    }
+                    else
+                    {
+                        b.Location = new Point((b.Width + 5) * i, (b.Height + 5) * f);
+                        b.Text = ((char)((int)'A' + f)).ToString() + i;
+                        b.Click += button_Click;
+                        b.BackColor = Color.Gray;
+                        b.ForeColor = Color.White;
+                        panel1.Controls.Add(b);
+                    }
                     
                 }
             }
@@ -47,6 +60,7 @@ namespace Kino2D
         {
             (sender as Button).Enabled = false;
             (sender as Button).BackColor = Color.Red;
+           (sender as Button).Image = Properties.Resources.avatar;
         }
     }
 }
