@@ -30,6 +30,11 @@ namespace Kino2D
             int y = (int)numericUpDown1.Value;
             sal = new bool[y, x];
             ToolTip t = new ToolTip();
+            t.OwnerDraw = true;
+            t.Draw += ToolTipDraw;
+            //t.P
+            t.BackColor = Color.Black;
+            t.ForeColor = Color.LightGray;
             for (int f = 0; f<y; f++)
             {
                 for (int i = 0; i < x; i++)
@@ -62,6 +67,13 @@ namespace Kino2D
                     panel3.Controls.Add(b);
                 }
             }
+        }
+
+        private void ToolTipDraw(object sender, DrawToolTipEventArgs e)
+        {
+            e.DrawBackground();
+            e.DrawBorder();
+            e.DrawText();
         }
 
         private void button_Click(object sender, EventArgs e)
