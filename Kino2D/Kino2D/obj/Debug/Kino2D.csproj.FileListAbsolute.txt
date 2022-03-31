@@ -51,3 +51,4 @@ D:\Koj\Programování\GitHub\C#\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.cs
 D:\Koj\Programování\GitHub\C#\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.exe
 D:\Koj\Programování\GitHub\C#\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.pdb
 C:\Users\i5\Source\Repos\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.Form2.resources
+D:\Koj\Programování\GitHub\C#\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.Form2.resources
