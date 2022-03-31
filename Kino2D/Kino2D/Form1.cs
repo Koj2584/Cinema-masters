@@ -11,10 +11,15 @@ using System.Windows.Forms;
 namespace Kino2D
 {
     public partial class Form1 : Form
-    {
+    {   
         bool[,] sal;
         public Form1()
         {
+            Form2 f2=new Form2();
+            f2.StartPosition = FormStartPosition.CenterScreen;
+            f2.Show();
+            Task.Delay(5000).Wait();
+            f2.Close();
             InitializeComponent();
         }
 
