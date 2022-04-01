@@ -123,9 +123,8 @@
     <None Include="Resources\Avatar-Profile-No-Background.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\avatar2.png" />
     <None Include="Resources\avatar.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Resources\dvojsedadlo.png" />
     <Content Include="Resources\sedadlo.png" />
   </ItemGroup>

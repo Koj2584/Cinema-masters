@@ -78,10 +78,25 @@ namespace Kino2D
 
         private void button_Click(object sender, EventArgs e)
         {
-            (sender as Button).Enabled = false;
-            (sender as Button).BackColor = Color.Red;
-            (sender as Button).BackgroundImage = Properties.Resources.avatar;
-            (sender as Button).BackgroundImageLayout = ImageLayout.Stretch;
+            DialogResult result= MessageBox.Show("Chteš si tuto sedačku objednat?\n( pokud si chcete rezervovat klikněte na Ne )", "Objednání", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                (sender as Button).Enabled = false;
+                (sender as Button).BackColor = Color.Red;
+                (sender as Button).BackgroundImage = Properties.Resources.avatar;
+                (sender as Button).BackgroundImageLayout = ImageLayout.Stretch;
+            }
+            else
+            {
+                DialogResult result2 = MessageBox.Show("Chteš si tuto sedačku rezervovat?", "Rezervace", MessageBoxButtons.YesNo);
+                if(result2 == DialogResult.Yes)
+                {
+                    (sender as Button).Enabled = false;
+                    (sender as Button).BackColor = Color.Red;
+                    (sender as Button).BackgroundImage = Properties.Resources.avatar2;
+                    (sender as Button).BackgroundImageLayout = ImageLayout.Stretch;
+                }
+            }
         }
 
         private void Close(object sender, EventArgs e)
