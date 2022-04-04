@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace Kino2D
 {
-    public partial class Form2 : Form
+    public partial class Form4 : Form
     {
-        public Form2()
+        public Form4()
         {
             InitializeComponent();
-            this.StartPosition = FormStartPosition.CenterScreen;
-            this.Show();
-            Task.Delay(3000).Wait();
+        }
+
+
+        private void Vybrat_film(object sender, EventArgs e)
+        {
+            Form f = new Form3((sender as Button).Text);
+            f.Show();
+            this.Visible = false;
         }
     }
 }
