@@ -47,7 +47,9 @@ namespace Kino2D
                     b.FlatStyle = FlatStyle.Flat;
                     b.ForeColor = Color.White;
                     b.FlatAppearance.BorderSize = 0;
-                    if ((x-4%3==0&&i-1%3==0/*&&(f==0||f==y-1)*/))
+                    if (((x-4)%3==0&&(i-1)%3==0&&(f==0||f==y-1))|| 
+                        ((x - 5) % 3 == 0 && i % 3 == 0 && (f == 0 || f == y - 1))|| 
+                        ((x - 3) % 3 == 0 && i % 4 == 0 && (f == 0 || f == y - 1)))
                     {
                         b.Location = new Point((b.Width +5) * i, (b.Height + 5) * f);
                         b.Width = b.Width*2+5;
