@@ -54,3 +54,16 @@ C:\Users\i5\Source\Repos\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.Form2.res
 D:\Koj\Programování\GitHub\C#\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.Form2.resources
 D:\Koj\Programování\GitHub\C#\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.Form3.resources
 D:\Koj\Programování\GitHub\C#\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.Form4.resources
+G:\Cinema-masters\Kino2D\Kino2D\bin\Debug\Kino2D.exe.config
+G:\Cinema-masters\Kino2D\Kino2D\bin\Debug\Kino2D.exe
+G:\Cinema-masters\Kino2D\Kino2D\bin\Debug\Kino2D.pdb
+G:\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.csprojAssemblyReference.cache
+G:\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.Form1.resources
+G:\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.Form3.resources
+G:\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.Form2.resources
+G:\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.Form4.resources
+G:\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.Properties.Resources.resources
+G:\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.csproj.GenerateResource.cache
+G:\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.csproj.CoreCompileInputs.cache
+G:\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.exe
+G:\Cinema-masters\Kino2D\Kino2D\obj\Debug\Kino2D.pdb
