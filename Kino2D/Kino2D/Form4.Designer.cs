@@ -44,6 +44,7 @@
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Vybrat_film);
+            this.button1.Paint += new System.Windows.Forms.PaintEventHandler(this.button5_Paint);
             // 
             // button2
             // 
@@ -54,6 +55,7 @@
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.Vybrat_film);
+            this.button2.Paint += new System.Windows.Forms.PaintEventHandler(this.button5_Paint);
             // 
             // button3
             // 
@@ -64,6 +66,7 @@
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.Vybrat_film);
+            this.button3.Paint += new System.Windows.Forms.PaintEventHandler(this.button5_Paint);
             // 
             // button4
             // 
@@ -74,6 +77,7 @@
             this.button4.Text = "button4";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.Vybrat_film);
+            this.button4.Paint += new System.Windows.Forms.PaintEventHandler(this.button5_Paint);
             // 
             // button5
             // 
@@ -84,6 +88,7 @@
             this.button5.Text = "button5";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.Vybrat_film);
+            this.button5.Paint += new System.Windows.Forms.PaintEventHandler(this.button5_Paint);
             // 
             // Form4
             // 
