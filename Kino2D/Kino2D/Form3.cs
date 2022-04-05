@@ -76,26 +76,41 @@ namespace Kino2D
             e.DrawBorder();
             e.DrawText();
         }
-
+        bool rezervace = false;
         private void button_Click(object sender, EventArgs e)
         {
-            DialogResult result= MessageBox.Show("Chteš si tuto sedačku objednat?\n( pokud si chcete rezervovat klikněte na Ne )", "Objednání", MessageBoxButtons.YesNo);
-            if (result == DialogResult.Yes)
+            if (rezervace == true)
             {
-                (sender as Button).Enabled = false;
-                (sender as Button).BackColor = Color.Red;
-                (sender as Button).BackgroundImage = Properties.Resources.avatar;
-                (sender as Button).BackgroundImageLayout = ImageLayout.Stretch;
+                DialogResult result3 = MessageBox.Show("Chtete zrušit rezervaci?\n", "Zrušení rezervace", MessageBoxButtons.YesNo);
+                if (result3 == DialogResult.Yes)
+                { 
+                    (sender as Button).BackgroundImage = Properties.Resources.dvojsedadlo;
+                    (sender as Button).BackgroundImageLayout = ImageLayout.Stretch;
+                    rezervace = false;
+                }
             }
             else
             {
-                DialogResult result2 = MessageBox.Show("Chteš si tuto sedačku rezervovat?", "Rezervace", MessageBoxButtons.YesNo);
-                if(result2 == DialogResult.Yes)
+                DialogResult result = MessageBox.Show("Chteš si tuto sedačku objednat?\n( pokud si chcete rezervovat klikněte na Ne )", "Objednání", MessageBoxButtons.YesNo);
+                if (result == DialogResult.Yes)
                 {
-                    (sender as Button).Enabled = false;
+                    (sender as Button).Enabled= false;
                     (sender as Button).BackColor = Color.Red;
-                    (sender as Button).BackgroundImage = Properties.Resources.avatar2;
+                    (sender as Button).BackgroundImage = Properties.Resources.dvojsedadloobj;
                     (sender as Button).BackgroundImageLayout = ImageLayout.Stretch;
+                }
+                else
+                {
+
+                    DialogResult result2 = MessageBox.Show("Chteš si tuto sedačku rezervovat?", "Rezervace", MessageBoxButtons.YesNo);
+                    if (result2 == DialogResult.Yes)
+                    {
+                        // (sender as Button).Enabled = false;
+                        rezervace = true;
+                        (sender as Button).BackColor = Color.Red;
+                        (sender as Button).BackgroundImage = Properties.Resources.dvojsedadlorez;
+                        (sender as Button).BackgroundImageLayout = ImageLayout.Stretch;
+                    }
                 }
             }
         }
